@@ -1,0 +1,5 @@
+@posts.map do |post|
+{
+  text: params[:text]
+}
+end 
