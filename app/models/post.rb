@@ -1,4 +1,4 @@
 class Post < ApplicationRecord
-  belongs_to :Main_board
-  belongs_to :User_profile
+  # belongs_to :Main_board
+  belongs_to :user
 end

@@ -3,5 +3,5 @@
   user_name: @user.user_name,
   profile: @user.profile,
   email: @user.email,
-  password_digest: @user.password_digest
+  posts: @user.posts
 }

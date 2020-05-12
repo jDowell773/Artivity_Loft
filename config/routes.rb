@@ -5,8 +5,12 @@ Rails.application.routes.draw do
     post "/posts" => "posts#create"
     
     post "/users" => "users#create"
+    get "/users/:id" => "users#show"
+
 
     post "/sessions" => "sessions#create"
+
+    get "/main_boards/:id" => "main_boards#show"
 
    end
 end

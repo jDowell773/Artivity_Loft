@@ -7,7 +7,8 @@ class Api::PostsController < ApplicationController
 
   def create
     @post = Post.new(
-      text: params[:text]
+      text: params[:text],
+      user_id: current_user.id 
     )
      @post.save
     render "show.json.jb"
