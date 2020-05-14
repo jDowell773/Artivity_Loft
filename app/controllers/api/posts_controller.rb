@@ -14,4 +14,10 @@ class Api::PostsController < ApplicationController
     render "show.json.jb"
   end
 
+  def destroy
+    post = Post.find_by(id: params[:id])
+    post.destroy
+    render json: {message: "The post was successfully destroyed."}
+  end
+
 end

@@ -1,7 +1,8 @@
-class Api::MainBoardsController < ApplicationController
+# class Api::MainBoardsController < ApplicationController
 
-  def show 
-    
-  end 
+#   def index 
+#     @main_boards = Main_board.all
+#     render 'index.json.jb'
+#   end 
 
-end
+# end

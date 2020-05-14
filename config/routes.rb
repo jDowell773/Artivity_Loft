@@ -3,6 +3,7 @@ Rails.application.routes.draw do
 
     get "/posts" => "posts#index"
     post "/posts" => "posts#create"
+    delete "/posts/:id" => "posts#destroy"
     
     post "/users" => "users#create"
     get "/users/:id" => "users#show"
@@ -10,7 +11,7 @@ Rails.application.routes.draw do
 
     post "/sessions" => "sessions#create"
 
-    get "/main_boards/:id" => "main_boards#show"
+   #  get "/main_boards" => "main_boards#index"
 
    end
 end

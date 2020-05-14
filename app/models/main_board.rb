@@ -1,3 +1,3 @@
 class MainBoard < ApplicationRecord
-  has_many :Posts 
+  has_many :posts 
 end

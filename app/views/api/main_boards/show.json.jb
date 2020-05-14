@@ -1,0 +1,4 @@
+# {
+#   id: @post.id,
+#   text: @post.text
+# }
