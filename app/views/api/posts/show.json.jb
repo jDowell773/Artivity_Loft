@@ -1,4 +1,5 @@
 {
   id: @post.id,
-  text: @post.text
+  text: @post.text,
+  image_url: @post.image_url
 }

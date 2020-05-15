@@ -1,7 +1,8 @@
 @posts.map do |post|
 {
   id: post.id,
-  user_id: post.user_id,
-  text: post.text
+  text: post.text,
+  image_url: post.image_url,
+  user_id: post.user_id
 }
 end 
