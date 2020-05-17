@@ -15,6 +15,11 @@ class Api::UsersController < ApplicationController
     end
   end
 
+  def current
+    @user = current_user
+    render 'show.json.jb'
+  end
+
   def show
     @user = User.find_by(id: params[:id])
     render 'show.json.jb'

@@ -6,6 +6,7 @@ Rails.application.routes.draw do
     delete "/posts/:id" => "posts#destroy"
     
     post "/users" => "users#create"
+    get "/users/current" => "users#current"
     get "/users/:id" => "users#show"
 
 
